@@ -107,7 +107,7 @@ glibc and musl systems.
 
 #### Application Containers
 
-If a more integrated and polished solution is desired, Void also [provides OCI
+If a more integrated and polished solution is desired, EvolutionOS also [provides OCI
 containers](https://github.com/void-linux/void-docker/pkgs/container/void-linux)
 that work with tools like [docker](https://www.docker.com) and
 [podman](https://man.voidlinux.org/podman.1). These containers do not require

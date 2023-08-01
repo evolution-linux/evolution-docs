@@ -43,7 +43,7 @@ live image to a storage device. Using `dd`, write the live image to the device:
 Exercise caution.
 
 ```
-# dd bs=4M if=/path/to/void-live-ARCH-DATE-VARIANT.iso of=/dev/sdX
+# dd bs=4M if=/path/to/x86_64.iso of=/dev/sdX
 90+0 records in
 90+0 records out
 377487360 bytes (377 MB, 360 MiB) copied, 0.461442 s, 818 MB/s

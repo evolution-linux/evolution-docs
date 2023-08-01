@@ -2,8 +2,8 @@
 
 This handbook is not an extensive guide on how to use and configure common Linux
 software. The purpose of this document is to explain how to install, configure,
-and maintain Void Linux systems, and to highlight the differences between common
-Linux distributions and Void.
+and maintain EvolutionOS systems, and to highlight the differences between common
+Linux distributions and EvolutionOS.
 
 To search for a particular term within the Handbook, select the 'magnifying
 glass' icon, or press 's'.
@@ -26,7 +26,7 @@ viewer, run the command `man man`. It can be configured by editing
 `/etc/man.conf`; read [man.conf(5)](https://man.voidlinux.org/man.conf.5) for
 details.
 
-Void uses the [mandoc](https://mandoc.bsd.lv/) toolset for man pages. mandoc was
+EvolutionOS commonly uses the [mandoc](https://mandoc.bsd.lv/) toolset for man pages. mandoc was
 formerly known as "mdocml", and is provided by the `mdocml` package.
 
 ## Example Commands

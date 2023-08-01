@@ -19,7 +19,7 @@ respectively.
 
 ### Standalone compositors
 
-Void Linux currently packages the following Wayland compositors:
+EvolutionOS currently packages the following Wayland compositors:
 
 - Weston: reference compositor for Wayland
 - Sway: an i3-compatible Wayland compositor
@@ -28,6 +28,9 @@ Void Linux currently packages the following Wayland compositors:
 - Cage: a Wayland kiosk
 - River: a dynamic tiling Wayland compositor
 - labwc: a window-stacking compositor, inspired by Openbox
+
+Note that evolution-desktop exists, which uses Wayfire and bundles gtkgreet and polkit for
+ease of access.
 
 ### Video drivers
 
@@ -41,7 +44,7 @@ setting up graphics in different systems.
 ### Seat management
 
 Wayland compositors require some way of controlling the video display and
-accessing input devices. In Void systems, this requires a seat manager service,
+accessing input devices. In EvolutionOS systems, this requires a seat manager service,
 which can be either elogind or seatd. Enabling them is explained in the
 ["Session and Seat Management"](../session-management.md) session.
 

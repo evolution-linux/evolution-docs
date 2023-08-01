@@ -45,7 +45,7 @@ and add users to the `wheel` group.
 
 ## Default Groups
 
-Void Linux defines a number of groups by default.
+EvolutionOS defines a number of groups by default.
 
 | Group      | Description                                                   |
 |------------|---------------------------------------------------------------|

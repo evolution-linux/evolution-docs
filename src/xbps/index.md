@@ -31,12 +31,12 @@ Most questions can be answered by consulting the man pages for these tools,
 together with the [xbps.d(5)](https://man.voidlinux.org/xbps.d.5) man page.
 
 To learn how to build packages from source, refer to [the README for the
-void-packages
-repository](https://github.com/void-linux/void-packages/blob/master/README.md).
+evolution-packages
+repository](https://github.com/evolution-linux/evolution-packages/blob/master/README.md).
 
 ## Updating
 
-Like any other system, it is important to keep Void up-to-date. Use
+Like any other system, it is important to keep Evolution up-to-date. Use
 [xbps-install(1)](https://man.voidlinux.org/xbps-install.1) to update:
 
 ```
@@ -94,7 +94,7 @@ $ xbps-query -f <package_name>
 
 The `xtools` package contains the
 [xlocate(1)](https://man.voidlinux.org/xlocate.1) utility. `xlocate` works like
-[locate(1)](https://man.voidlinux.org/locate.1), but for files in the Void
+[locate(1)](https://man.voidlinux.org/locate.1), but for files in the Evolution
 package repositories:
 
 ```

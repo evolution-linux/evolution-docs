@@ -13,7 +13,7 @@ on updates with minimal or no intervention required.
 
 ## PHP Meta-packages
 
-In Void, the `php` package is a meta-package that points to the latest upstream
+In EvolutionOS, the `php` package is a meta-package that points to the latest upstream
 PHP version. This convention is followed by all packages prefixed with `php-`,
 such as `php-fpm`, as well as `xdebug` and `composer`. See [the `php`
 template](https://github.com/void-linux/void-packages/blob/master/srcpkgs/php/template)

@@ -2,21 +2,21 @@
 
 ## Programming Languages
 
-The Void repositories have a number of Python and Lua packages. If possible,
-install packages from the Void repositories or consider packaging the library or
+The EvolutionOS repositories have a number of Python and Lua packages. If possible,
+install packages from the EvolutionOS repositories or consider packaging the library or
 application you need. Packaging your application allows for easier system
-maintenance and can benefit other Void Linux users, so consider making a pull
+maintenance and can benefit other EvolutionOS users, so consider making a pull
 request for it. The contribution instructions can be found
-[here](https://github.com/void-linux/void-packages/blob/master/CONTRIBUTING.md).
+[here](https://github.com/evolution-linux/evolution-packages/blob/master/CONTRIBUTING.md).
 
-To keep packages smaller, Void has separate `devel` packages for header files
+To keep packages smaller, EvolutionOS has separate `devel` packages for header files
 and development tools. If you install a library or application via a language's
 package manager (e.g. `pip`, `gem`), or compile one from source, you may need to
 install the programming language's `-devel` package. This is specially relevant
 for `musl` libc users, due to pre-built binaries usually targeting `glibc`
 instead.
 
-| Language | Package Manager                | Void Package    |
+| Language | Package Manager                | Evolution Package    |
 |----------|--------------------------------|-----------------|
 | Python3  | pip, anaconda, virtualenv, etc | `python3-devel` |
 | Python2  | pip, anaconda, virtualenv, etc | `python2-devel` |
@@ -26,7 +26,7 @@ instead.
 ## Restricted Packages
 
 Some packages have legal restrictions on their distribution (e.g. Discord), may
-be too large, or have another condition that makes it difficult for Void to
+be too large, or have another condition that makes it difficult for EvolutionOS to
 distribute. These packages have build templates, but the packages themselves are
 not built or distributed. As such, they must be built locally. For more
 information see the page on [restricted
@@ -34,17 +34,17 @@ packages](../xbps/repositories/restricted.md).
 
 ## Non-x86_64 Arch
 
-The Void build system runs on x86_64 servers, both for compiling and cross
+The EvolutionOS build system runs on x86_64 servers, both for compiling and cross
 compiling packages. However, some packages (e.g. `libreoffice`) do not support
 cross-compilation. These packages have to be built locally on a computer running
 the same architecture and libc as the system on which the package is to be used.
-To learn how to build packages, refer to [the README for the void-packages
-repository](https://github.com/void-linux/void-packages/blob/master/README.md).
+To learn how to build packages, refer to [the README for the evolution-packages
+repository](https://github.com/evolution-linux/evolution-packages/blob/master/README.md).
 
 ## Flatpak
 
 Flatpak is another method for installing external proprietary applications on
-Linux. For information on using Flatpak with Void Linux, see the [official
+Linux. For information on using Flatpak with EvolutionOS, see the [official
 Flatpak documentation](https://flatpak.org/setup/Void%20Linux/).
 
 If sound is not working for programs installed using Flatpak,
@@ -93,7 +93,7 @@ Steam can be installed either via a native package, which requires [enabling the
 "nonfree" repository](../xbps/repositories/index.md#nonfree), or via
 [Flatpak](#flatpak). The list of dependencies for different platforms and
 troubleshooting information for the native package can be found in its
-[Void-specific documentation](./package-documentation/index.html), while this
+[Evolution-specific documentation](./package-documentation/index.html), while this
 section deals with potential issues faced by Flatpak users.
 
 If you are using a different drive to store your game library, the

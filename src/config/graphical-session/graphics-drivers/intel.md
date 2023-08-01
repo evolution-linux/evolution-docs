@@ -31,7 +31,7 @@ environment variable `LIBVA_DRIVER_NAME`:
 
 ## Troubleshooting
 
-The kernels packaged by Void are configured with
+The kernels packaged by EvolutionOS are configured with
 `CONFIG_INTEL_IOMMU_DEFAULT_ON=y`, which can lead to issues with their graphics
 drivers, as reported by the [kernel
 documentation](https://www.kernel.org/doc/html/latest/x86/iommu.html#graphics-problems).

@@ -1,8 +1,8 @@
-# Installing Void on a ZFS Root
+# Installing EvolutionOS on a ZFS Root
 
-Because the Void installer does not support ZFS, it is necessary to install via
+Because the EvolutionOS installer does not support ZFS, it is necessary to install via
 chroot. Aside from a few caveats regarding bootloader and initramfs support,
-installing Void on a ZFS root filesystem is not significantly different from any
+installing EvolutionOS on a ZFS root filesystem is not significantly different from any
 other advanced installation. [ZFSBootMenu](https://zfsbootmenu.org) is a
 bootloader designed from the ground up to support booting Linux distributions
 directly from a ZFS pool. However, it is also possible to use traditional
@@ -10,38 +10,32 @@ bootloaders with a ZFS root.
 
 ## ZFSBootMenu
 
-Although it will boot (and can be run atop) a wide variety of distributions,
-ZFSBootMenu officially considers Void a first-class distribution. ZFSBootMenu
-supports native ZFS encryption, offers a convenient recovery environment that
-can be used to clone prior snapshots or perform advanced manipulation in a
-pre-boot environment, and will support booting from any pool that is importable
-by modern ZFS drivers. The ZFSBootMenu documentation offers, among other
-content, several [step-by-step
-guides](https://docs.zfsbootmenu.org/en/latest/guides/void-linux.html) for
-installing a Void system from scratch. The [UEFI
-guide](https://docs.zfsbootmenu.org/en/latest/guides/void-linux/uefi.html)
-describes the procedure of bootstrapping a Void system for modern systems. For
-legacy BIOS systems, the [syslinux
-guide](https://docs.zfsbootmenu.org/en/latest/guides/void-linux/syslinux-mbr.html)
-provides comparable instructions.
+ZFSBootMenu supports native ZFS encryption, offers a convenient recovery 
+environment that can be used to clone prior snapshots or perform advanced 
+manipulation in a pre-boot environment, and will support booting from any 
+pool that is importable by modern ZFS drivers. The ZFSBootMenu documentation 
+offers, among other content, several [step-by-step guides](https://docs.zfsbootmenu.org/en/latest/guides/void-linux.html) for installing a EvolutionOS system from scratch. The [UEFI guide](https://docs.zfsbootmenu.org/en/latest/guides/void-linux/uefi.html)
+describes the procedure of bootstrapping a EvolutionOS system for modern systems. For
+legacy BIOS systems, the [syslinux guide](https://docs.zfsbootmenu.org/en/latest/guides/void-linux/syslinux-mbr.html)provides comparable instructions.
 
 ## Traditional bootloaders
 
-For those that wish to forego ZFSBootMenu, it is possible to bootstrap a Void
+For those that wish to forego ZFSBootMenu, it is possible to bootstrap a EvolutionOS
 system with another bootloader. To avoid unnecessary complexity, systems that
 use bootloaders other than ZFSBootMenu should plan to use a separate `/boot`
 that is located on an ext4 or xfs filesystem.
 
 ### Installation media
 
-Installing Void to a ZFS root requires an installation medium with ZFS drivers.
+Installing EvolutionOS to a ZFS root requires an installation medium with ZFS drivers.
 It is possible to build a custom image from the official
-[void-mklive](https://github.com/void-linux/void-mklive) repository by providing
+[evolution-installer](https://github.com/evolution-linux/evolution-installer) repository by providing
 the command-line option `-p zfs` to the `mklive.sh` script. However, for
 `x86_64` systems, it may be more convenient to fetch a pre-built
 [hrmpf](https://github.com/leahneukirchen/hrmpf/releases) image. These images,
-maintained by a Void team member, are extensions of the standard Void live
+maintained by the Void Linux projects, are extensions of the standard Void live
 images that include pre-compiled ZFS modules in addition to other useful tools.
+To use these, add https://evolution-linux.github.io to the repository list.
 
 ### Partition disks
 
@@ -143,7 +137,7 @@ before allowing ZFS to automatically mount everything else:
 
 At this point, the entire ZFS hierarchy should be mounted and ready for
 installation. To improve boot-time import speed, it is useful to record the
-current pool configuration in a cache file that Void will use to avoid walking
+current pool configuration in a cache file that EvolutionOS will use to avoid walking
 the entire device hierarchy to identify importable pools:
 
 ```
@@ -168,7 +162,7 @@ At this point, ordinary installation can proceed from the ["Base Installation"
 section](https://docs.voidlinux.org/installation/guides/chroot.html#base-installation).
 of the standard chroot installation guide. However, before following the
 ["Finalization"
-instructions](https://docs.voidlinux.org/installation/guides/chroot.html#finalization),
+instructions](./chroot.html#finalization),
 make sure that the `zfs` package has been installed and `dracut` is configured
 to identify a ZFS root filesystem:
 

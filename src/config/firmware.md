@@ -1,6 +1,6 @@
 # Firmware
 
-Void provides a number of firmware packages in the repositories. Some firmware
+EvolutionOS provides a number of firmware packages in the repositories. Some firmware
 is only available if you have enabled the
 [nonfree](../xbps/repositories/index.md#nonfree) repository.
 

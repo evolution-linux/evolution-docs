@@ -3,7 +3,7 @@
 AppArmor is a mandatory access control mechanism (like SELinux). It can
 constrain programs based on pre-defined or generated policy definitions.
 
-Void ships with some default profiles for several services, such as `dhcpcd` and
+EvolutionOS ships with some default profiles for several services, such as `dhcpcd` and
 `wpa_supplicant`. Container runtimes such as LXC and podman integrate with
 AppArmor for better security for container payloads.
 

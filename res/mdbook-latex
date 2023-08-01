@@ -48,7 +48,7 @@ $latex .= "\\begin{titlepage}\n";
 $latex .= "  \\includegraphics[width=160mm,height=230mm]{res/handbook-cover.png}\n";
 $latex .= "\\end{titlepage}\n";
 $latex .=" \\restoregeometry\n";
-$latex .= "\\title{Void Handbook}\n";
+$latex .= "\\title{EvolutionOS Handbook}\n";
 $latex .= "\\date{$date}\n";
 $latex .= "\\maketitle\n";
 $latex .= "\\setcounter{tocdepth}{5}\n";

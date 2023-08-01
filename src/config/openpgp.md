@@ -1,6 +1,6 @@
 # GnuPG
 
-Void ships both GnuPG legacy (as `gnupg1`) and GnuPG stable (as `gnupg`).
+EvolutionOS ships both GnuPG legacy (as `gnupg1`) and GnuPG stable (as `gnupg`).
 
 ## Smartcards
 
@@ -26,7 +26,7 @@ If you need to use pcscd for other reasons, run `echo disable-ccid >>
 
 # OpenPGP Card Tools
 
-As an alternative to GnuPG with smartcards, Void also ships
+As an alternative to GnuPG with smartcards, EvolutionOS also ships
 `openpgp-card-tools`, a Rust based utility not reliant on GnuPG. It requires
 using `pcscd` for interacting with smart cards, so if you want to use it in
 parallel with GnuPG, ou need to configure `scdaemon` to use the pcscd backend,

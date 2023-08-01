@@ -4,7 +4,9 @@ Tor is an anonymizing software that bounces traffic via computers all around the
 world. It can provide access to regular sites on the internet or to hidden sites
 only available on the network.
 
-The following Void Linux Mirrors are available on the Tor Network:
+Note that these are tier 1 mirrors, and tier 0 mirrors still need to be on the clearnet.
+
+The following EvolutionOS Linux Mirrors are available on the Tor Network:
 
 | Repository                                                                             | Location   |
 |----------------------------------------------------------------------------------------|------------|

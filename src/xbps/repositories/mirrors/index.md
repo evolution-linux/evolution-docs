@@ -1,8 +1,16 @@
 # Mirrors
 
-Void Linux maintains mirrors in several geographic regions for you to use. A
-fresh install will default to using the master mirror in Europe, but you may
-also [select a different mirror](./changing.md) manually.
+EvolutionOS uses the Void Linux repos, which maintains mirrors in several
+geographic regions for you to use. A fresh install will default to using the
+master mirror in Europe, but you may also [select a different mirror](./changing.md)
+manually.
+
+## Tier 0 mirrors
+
+Tier 0 mirrors contain patches for evolutionOS to work correctly. There is only
+one at:
+
+https://evolution-linux.github.io
 
 ## Tier 1 mirrors
 
@@ -26,7 +34,7 @@ map to any tier 1 mirror.
 ## Tier 2 mirrors
 
 Tier 2 mirrors sync from a nearby Tier 1 mirror when possible. These mirrors are
-not managed by Void and do not have any guarantees of freshness or completeness
+not managed by us or the Void team and do not have any guarantees of freshness or completeness
 of packages, nor are they required to sync every available architecture or
 sub-repository.
 
@@ -65,7 +73,7 @@ sub-repository.
 
 ## Tor Mirrors
 
-Void Linux is also mirrored on the Tor network. See [Using Tor
+EvolutionOS is also mirrored on the Tor network. See [Using Tor
 Mirrors](./tor.md) for more information.
 
 ## Creating a mirror
@@ -73,7 +81,7 @@ Mirrors](./tor.md) for more information.
 If you'd like to set up a mirror, and are confident you can keep it reasonably
 up-to-date, follow one of the many guides available for mirroring with
 [rsync(1)](https://man.voidlinux.org/rsync.1), then submit a pull request to
-[the void-docs repository](https://github.com/void-linux/void-docs) to add your
+[the evolution-docs repository](https://github.com/evolution-linux/evolution-docs) to add your
 mirror to the appropriate mirror table on this page.
 
 A full mirror requires around 1TB of storage. It is also possible to mirror only

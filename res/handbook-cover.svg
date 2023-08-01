@@ -1,126 +1,278 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-    xmlns:dc="http://purl.org/dc/elements/1.1/"
-    xmlns:cc="http://creativecommons.org/ns#"
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:svg="http://www.w3.org/2000/svg"
-    xmlns="http://www.w3.org/2000/svg"
-    id="svg-cover_page"
-    version="1.1"
-    viewBox="0 0 160 230"
-    height="230mm"
-    width="160mm">
-  <metadata
-      id="metadata-cover_page">
-    <rdf:RDF>
-      <cc:Work
-          rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-      id="g-page">
-    <rect
-        style="fill:#ffffff;"
-        id="rect-page"
-        width="160"
-        height="230"
-        x="0"
-        y="0" />
-  </g>
-  <g
-      id="g-content">
-
-    <g
-        id="g-logo"
-        style="stroke:#ffffff"
-        transform="matrix(1.3112594,0,0,1.3112594,11.829702,-5.3453412)">
-      <path
-          style="stroke:#ffffff;stroke-width:0.811045;stroke-miterlimit:4;stroke-dasharray:none"
-          id="path-arc_top_right"
-          fill="#abc2ab"
-          d="m 52.393726,33.628591 c -5.829269,0.01238 -11.507642,1.854006 -16.234586,5.265253 l 6.324252,6.324251 c 2.983825,-1.825253 6.412518,-2.793929 9.910334,-2.799877 10.523116,-2.1e-5 19.053793,8.530655 19.053772,19.053773 -0.0084,3.49657 -0.978842,6.923403 -2.804983,9.905228 l 6.336239,6.336239 c 3.410162,-4.729679 5.249439,-10.4106 5.258374,-16.241467 0,-15.377484 -12.46592,-27.8434 -27.843402,-27.8434 z" />
-      <path
-          style="stroke:#ffffff;stroke-width:0.811045;stroke-miterlimit:4;stroke-dasharray:none"
-          id="path-arc_bottom_left"
-          fill="#478061"
-          d="m 68.62831,84.050138 -6.324253,-6.32425 c -2.983826,1.825252 -6.412519,2.793931 -9.910331,2.799876 -10.523119,2.1e-5 -19.053795,-8.530656 -19.053774,-19.053773 0.0084,-3.49657 0.978838,-6.923404 2.804983,-9.905227 l -6.336242,-6.336238 c -3.410166,4.729675 -5.249434,10.410598 -5.258368,16.241465 0,15.377483 12.465916,27.843401 27.843401,27.843401 5.829268,-0.01238 11.507639,-1.854005 16.234584,-5.265254 z" />
-      <circle
-          style="stroke:#ffffff;stroke-width:0.811045;stroke-miterlimit:4;stroke-dasharray:none"
-          id="circle-center"
-          r="8.8644295"
-          cy="61.471992"
-          cx="52.389275"
-          fill="#abc2ab" />
-      <path
-          style="fill:#000000;stroke:#ffffff;stroke-width:0.811045;stroke-miterlimit:4;stroke-dasharray:none"
-          id="path-v"
-          d="m 26.61672,66.65134 c -0.303627,0.216873 -0.580143,0.32531 -0.829549,0.32531 h -1.073535 c -0.151813,0 -0.271094,-0.02711 -0.357844,-0.08133 -0.08675,-0.05422 -0.157233,-0.135549 -0.211453,-0.243985 L 18.646546,56.436504 c -0.02169,-0.02169 -0.03253,-0.0488 -0.03253,-0.08133 v -0.0976 c 0,-0.108437 0.03795,-0.195187 0.113861,-0.260251 0.08675,-0.07591 0.222297,-0.113858 0.406642,-0.113858 h 6.685186 c 0.357843,0 0.590984,0.108437 0.699421,0.325312 l 3.38326,6.52253 9.482875,-6.52253 c 0.31447,-0.216875 0.645206,-0.325312 0.992208,-0.325312 h 1.057265 c 0.140971,0 0.211457,0.05964 0.211457,0.178922 0,0.09759 -0.08675,0.216874 -0.260248,0.357843 z" />
-      <path
-          style="fill:#000000;stroke:#ffffff;stroke-width:0.811045;stroke-miterlimit:4;stroke-dasharray:none"
-          id="path-o"
-          d="m 41.370181,66.97665 c -0.563876,0 -1.062689,-0.08675 -1.496438,-0.260249 -0.433754,-0.184343 -0.797022,-0.43375 -1.089804,-0.748221 -0.292782,-0.31447 -0.515079,-0.683157 -0.66689,-1.106061 -0.15181,-0.433753 -0.227716,-0.900036 -0.227716,-1.398852 0,-0.639781 0.108438,-1.26872 0.325312,-1.886813 0.216875,-0.618096 0.515079,-1.209082 0.894613,-1.77296 0.390373,-0.563876 0.84581,-1.084377 1.366311,-1.561502 0.531344,-0.477127 1.106065,-0.889191 1.724161,-1.23619 0.628941,-0.347 1.290411,-0.618094 1.98441,-0.813283 0.694004,-0.206031 1.404272,-0.309046 2.130802,-0.309046 h 7.970171 c 0.574722,0 1.078957,0.08675 1.512713,0.260248 0.444592,0.173501 0.813278,0.417487 1.106061,0.731957 0.292783,0.303624 0.51508,0.666889 0.66689,1.089797 0.151816,0.422907 0.227725,0.883767 0.227725,1.38258 0,0.639784 -0.113861,1.274145 -0.34158,1.903083 -0.216879,0.618096 -0.520504,1.209083 -0.910879,1.772957 -0.390376,0.563875 -0.851238,1.089801 -1.382582,1.577772 -0.531345,0.477125 -1.111489,0.894609 -1.740427,1.252452 -0.628936,0.347001 -1.290407,0.62352 -1.984409,0.829551 -0.694,0.195189 -1.393426,0.29278 -2.098273,0.29278 z m 9.791928,-6.652657 c 0.357846,-0.759062 0.53677,-1.32836 0.53677,-1.707891 0,-0.31447 -0.113863,-0.531346 -0.341585,-0.650627 -0.216876,-0.119282 -0.542186,-0.178922 -0.975936,-0.178922 h -2.212131 c -0.314468,0 -0.607251,0.04337 -0.878348,0.130124 -0.260252,0.07591 -0.504235,0.211455 -0.731954,0.406641 -0.227719,0.195189 -0.450014,0.455441 -0.66689,0.780755 -0.206029,0.325312 -0.417481,0.731952 -0.634357,1.21992 l -0.780758,1.77296 c -0.412061,0.921721 -0.618092,1.615723 -0.618092,2.082006 0,0.314468 0.09217,0.542187 0.276514,0.683154 0.184348,0.130125 0.45002,0.195189 0.797017,0.195189 h 2.228398 c 0.336158,0 0.645207,-0.0488 0.927145,-0.146389 0.28194,-0.108439 0.553034,-0.276519 0.813284,-0.504238 0.260249,-0.227718 0.509656,-0.531344 0.748218,-0.910875 0.238564,-0.379532 0.482547,-0.845815 0.731954,-1.398847 z" />
-      <path
-          style="fill:#000000;stroke:#ffffff;stroke-width:0.811045;stroke-miterlimit:4;stroke-dasharray:none"
-          id="path-i"
-          d="m 56.65507,66.97665 c -0.195186,0 -0.29278,-0.06506 -0.29278,-0.195186 0,-0.06506 0.01627,-0.146391 0.0488,-0.243985 L 60.981733,56.30638 c 0.13013,-0.281938 0.336161,-0.422907 0.618101,-0.422907 h 5.595384 c 0.206031,0 0.309047,0.07048 0.309047,0.21145 0,0.06506 -0.0217,0.13555 -0.06506,0.211457 L 62.88482,66.537479 c -0.130128,0.292782 -0.336159,0.439171 -0.618099,0.439171 z" />
-      <path
-          style="fill:#000000;stroke:#ffffff;stroke-width:0.811045;stroke-miterlimit:4;stroke-dasharray:none"
-          id="path-d"
-          d="m 64.65244,66.97665 c -0.195188,0 -0.29278,-0.06506 -0.29278,-0.195186 0,-0.06506 0.01627,-0.146391 0.0488,-0.243985 L 68.979102,56.30638 c 0.130128,-0.281938 0.336162,-0.422907 0.618099,-0.422907 h 13.077592 c 0.563877,0 1.062688,0.08675 1.496438,0.260248 0.43375,0.173501 0.797015,0.417487 1.089798,0.731957 0.29278,0.303624 0.51508,0.666889 0.666895,1.089797 0.15181,0.422907 0.227717,0.883767 0.227717,1.38258 0,0.661472 -0.113859,1.312099 -0.341577,1.95188 -0.227719,0.628939 -0.54219,1.225347 -0.943412,1.789224 -0.390374,0.563875 -0.856655,1.084376 -1.398842,1.561502 -0.531346,0.477126 -1.111488,0.88919 -1.740429,1.236189 -0.618095,0.336158 -1.268722,0.601832 -1.951876,0.797017 -0.683162,0.195189 -1.366319,0.292783 -2.049476,0.292783 z m 14.151123,-6.652657 c 0.347001,-0.78075 0.520502,-1.350048 0.520502,-1.707891 0,-0.31447 -0.108437,-0.531346 -0.325311,-0.650627 -0.216876,-0.119282 -0.531347,-0.178922 -0.943411,-0.178922 h -3.301929 l -3.220601,7.270749 h 3.285665 c 0.325313,0 0.628938,-0.0488 0.910878,-0.146389 0.281937,-0.108439 0.547611,-0.276516 0.797015,-0.504238 0.260252,-0.238564 0.509659,-0.542186 0.748221,-0.910875 0.249406,-0.379532 0.498813,-0.845815 0.748217,-1.398847 z" />
-    </g>
-
-    <path
-        style="stroke:#000000;stroke-width:0.5;stroke-opacity:1"
-        d="M 52,229 V 194.45232"
-        id="path-vertical_divider" />
-    <text
-        id="text-title"
-        transform="translate(-52.465706,-3.1108912)"
-        style="font-family:'Latin Modern Roman';font-size:6px;line-height:1.25;"
-        xml:space="preserve"
-        x="44"
-        y="216">
-      <tspan>Void Handbook</tspan>
-    </text>
-    <text
-        id="text-blurb"
-        style="font-family:'Latin Modern Roman';font-size:4.2px;line-height:1.05;"
-        transform="translate(-1.6329418,-11.49269)">
-      <tspan
-          x="59"
-          y="212">
-        Void is a general purpose operating system, based on
-      </tspan>
-      <tspan
-          x="59"
-          y="217">
-        the monolithic Linux kernel. Its package system
-      </tspan>
-      <tspan
-          x="59"
-          y="222">
-        allows you to quickly install, update and remove
-      </tspan>
-      <tspan
-          x="59"
-          y="227">
-        software; software is provided in binary packages or
-      </tspan>
-      <tspan
-          x="59"
-          y="232">
-        can be built directly from sources with the help of the
-      </tspan>
-      <tspan
-          x="59"
-          y="237">
-        XBPS source packages collection.
-      </tspan>
-    </text>
-  </g>
-</svg>
+   id="svg-cover_page"
+   version="1.1"
+   viewBox="0 0 160 230"
+   height="230mm"
+   width="160mm"
+   sodipodi:docname="handbook-cover.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"><defs
+     id="defs512"><rect
+       x="206.62163"
+       y="735.32098"
+       width="386.4261"
+       height="129.66423"
+       id="rect1641" /><rect
+       x="209.59138"
+       y="735.16314"
+       width="383.1422"
+       height="124.70311"
+       id="rect1635" /><rect
+       x="688.45399"
+       y="840.28597"
+       width="439.67783"
+       height="92.200577"
+       id="rect1629" /><rect
+       x="691.20444"
+       y="854.46835"
+       width="124.00641"
+       height="93.684849"
+       id="rect1623" /><rect
+       x="706.27132"
+       y="866.46369"
+       width="-127.88976"
+       height="205.7141"
+       id="rect1617" /></defs><sodipodi:namedview
+     id="namedview510"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.77730309"
+     inkscape:cx="506.88078"
+     inkscape:cy="675.41221"
+     inkscape:window-width="774"
+     inkscape:window-height="831"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg-cover_page" /><metadata
+     id="metadata-cover_page"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><g
+     id="g-page"><rect
+       style="fill:#ffffff;"
+       id="rect-page"
+       width="160"
+       height="230"
+       x="0"
+       y="0" /></g><g
+     id="g-content"><path
+       style="stroke:#000000;stroke-width:0.5;stroke-opacity:1"
+       d="M 52,229 V 194.45232"
+       id="path-vertical_divider" /><text
+       id="text-title"
+       transform="translate(-36.36392,-6.1088655)"
+       style="font-size:6px;line-height:1.25;font-family:'Latin Modern Roman';white-space:pre;inline-size:60.3944;display:inline"
+       xml:space="preserve"
+       x="44"
+       y="216"><tspan
+         x="44"
+         y="216"
+         id="tspan1678">EvolutionOS </tspan><tspan
+         x="44"
+         y="223.5"
+         id="tspan1680">Handbook</tspan></text><text
+       id="text-blurb"
+       style="font-size:4.2px;line-height:1.05;font-family:'Latin Modern Roman'"
+       transform="translate(-1.6329418,-11.49269)" /><image
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="74.055511"
+       height="73.131363"
+       xlink:href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxz
+dmcKICAgd2lkdGg9IjI1NiIKICAgaGVpZ2h0PSIyNTYiCiAgIHZpZXdCb3g9IjAgMCAyNTIuMDYx
+NTQgMjUyLjA2MTUzIgogICB2ZXJzaW9uPSIxLjEiCiAgIHByZXNlcnZlQXNwZWN0UmF0aW89InhN
+aWRZTWlkIgogICBpZD0idm9pZGxvZ28iCiAgIHNvZGlwb2RpOmRvY25hbWU9ImV2b2x1dGlvbi1s
+b2dvLnN2ZyIKICAgaW5rc2NhcGU6dmVyc2lvbj0iMS4yLjIgKGIwYTg0ODY1NDEsIDIwMjItMTIt
+MDEpIgogICB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNl
+cy9pbmtzY2FwZSIKICAgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3Jn
+ZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIgogICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAw
+MC9zdmciCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxzb2Rp
+cG9kaTpuYW1lZHZpZXcKICAgICBpZD0ibmFtZWR2aWV3NTgwIgogICAgIHBhZ2Vjb2xvcj0iI2Zm
+ZmZmZiIKICAgICBib3JkZXJjb2xvcj0iIzAwMDAwMCIKICAgICBib3JkZXJvcGFjaXR5PSIwLjI1
+IgogICAgIGlua3NjYXBlOnNob3dwYWdlc2hhZG93PSIyIgogICAgIGlua3NjYXBlOnBhZ2VvcGFj
+aXR5PSIwLjAiCiAgICAgaW5rc2NhcGU6cGFnZWNoZWNrZXJib2FyZD0iMCIKICAgICBpbmtzY2Fw
+ZTpkZXNrY29sb3I9IiNkMWQxZDEiCiAgICAgc2hvd2dyaWQ9ImZhbHNlIgogICAgIGlua3NjYXBl
+Onpvb209IjIuMjM4MzYyNCIKICAgICBpbmtzY2FwZTpjeD0iMTAwLjI5NjU0IgogICAgIGlua3Nj
+YXBlOmN5PSI4OC40NTc1MjYiCiAgICAgaW5rc2NhcGU6d2luZG93LXdpZHRoPSIxNDMyIgogICAg
+IGlua3NjYXBlOndpbmRvdy1oZWlnaHQ9IjgzMSIKICAgICBpbmtzY2FwZTp3aW5kb3cteD0iMCIK
+ICAgICBpbmtzY2FwZTp3aW5kb3cteT0iMCIKICAgICBpbmtzY2FwZTp3aW5kb3ctbWF4aW1pemVk
+PSIxIgogICAgIGlua3NjYXBlOmN1cnJlbnQtbGF5ZXI9InZvaWRsb2dvIiAvPgogIDxkZWZzCiAg
+ICAgaWQ9ImRlZnM1NjYiIC8+CiAgPGVsbGlwc2UKICAgICBzdHlsZT0iZmlsbDojMDAwMDAwO3N0
+cm9rZS13aWR0aDoxLjEzODM0IgogICAgIGlkPSJwYXRoNzMxIgogICAgIGN4PSIxMjguOTQ4MTUi
+CiAgICAgY3k9IjEyNS4wNTYyNCIKICAgICByeD0iMTIyLjgxOTAxIgogICAgIHJ5PSIxMjEuMjkz
+MTUiIC8+CiAgPGVsbGlwc2UKICAgICBzdHlsZT0iZmlsbDojYjdiN2I3O2ZpbGwtb3BhY2l0eTox
+O3N0cm9rZTojYWZmMWFiO3N0cm9rZS13aWR0aDoxLjQwNzA1O3N0cm9rZS1vcGFjaXR5OjAuMzMz
+MzMzIgogICAgIGlkPSJwYXRoNzI3MSIKICAgICBjeD0iMTIyLjI3Nzc1IgogICAgIGN5PSIxMjYu
+MzQwNjQiCiAgICAgcng9IjEyMC4wMDYyOSIKICAgICByeT0iMTIxLjkzMTYzIiAvPgogIDxlbGxp
+cHNlCiAgICAgc3R5bGU9ImZpbGw6I2Y3ZjhmNztmaWxsLW9wYWNpdHk6MTtzdHJva2U6I2FmZjFh
+YjtzdHJva2Utd2lkdGg6MS41NjgzNztzdHJva2Utb3BhY2l0eTowLjMzMzMzMyIKICAgICBpZD0i
+cGF0aDczOTQiCiAgICAgY3g9IjEyNi4wOTMyMiIKICAgICBjeT0iMTIwLjMxMTE2IgogICAgIHJ4
+PSIxMTUuNzY0OCIKICAgICByeT0iMTE1LjQ3NjE0IiAvPgogIDxnCiAgICAgaWQ9ImwzWk51eEl6
+UWRMR0JTUDB4dkt0QzVXIgogICAgIGZpbGw9IiM5N2Y2NGMiCiAgICAgdHJhbnNmb3JtPSJtYXRy
+aXgoMC4wMjI1MDE4LDAsMCwwLjAyMjUwMTgsLTgwLjQwNzA3OSwzLjIzMTY1NzYpIgogICAgIHN0
+eWxlPSJkaXNwbGF5OmlubGluZSI+CiAgICA8ZwogICAgICAgaWQ9ImcyODAiPgogICAgICA8cGF0
+aAogICAgICAgICBpZD0icGZQWkoyZ0V6IgogICAgICAgICBkPSJtIDExMTYwLDg5MzAgYyAwLC0z
+NiAtNCwtMzEgMzAwLC0zNTcgNDM4LC00NjggNzk0LC04NTUgODE3LC04ODYgNTUsLTc0IDU4LC0x
+MDcgNTYsLTUzNyAtMiwtMjE3IC04LC0xMzA0IC0xNCwtMjQxNSAtNiwtMTE0MiAtMTQsLTIwNDQg
+LTIwLC0yMDc1IC0xNywtMTAxIC00MCwtMTI0IC00MTQsLTQxMCAtMTI1LC05NiAtMzA3LC0yMzYg
+LTQwNCwtMzEwIC05NywtNzUgLTIzMywtMTc5IC0zMDIsLTIzMyAtMTM5LC0xMDYgLTIwMCwtMTQx
+IC0yNzYsLTE1NyAtMzQsLTcgLTU5NCwtMTAgLTE4MDEsLTggLTk2NCwyIC0xNzUyLDEgLTE3NTEs
+LTIgMCwtNSA3NiwtNjcgMTMxLC0xMDggMTcsLTEyIDQ4LC0yNyA2OCwtMzIgMjUsLTcgNjQ1LC05
+IDE4MjEsLTggbCAxNzg0LDMgNTQsMjggYyA1MSwyNyAyOTQsMjA5IDcyNiw1NDMgMTEwLDg1IDI2
+MywyMDIgMzQwLDI2MCAxNzAsMTMwIDIwMSwxNTggMjI4LDIwOSAyMSw0MCAyMiw0OSAyOSw4MTAg
+MjAsMjE0NSAyOCw0MTg1IDE3LDQyMzcgLTE5LDg3IC00MiwxMjAgLTIwOCwyOTUgLTg3LDkzIC0y
+MTEsMjI3IC0yNzYsMjk4IC02NSw3MiAtMTg0LDIwMCAtMjY0LDI4NSAtODAsODYgLTIyMCwyMzYg
+LTMxMSwzMzMgLTE2MCwxNzMgLTIyOCwyMzEgLTI4MCwyNDQgLTE0LDMgLTMxLDEwIC0zNywxNiAt
+MTAsNyAtMTMsMiAtMTMsLTIzIHoiIC8+CiAgICAgIDxwYXRoCiAgICAgICAgIGlkPSJwMUd5djds
+TXRoIgogICAgICAgICBkPSJtIDcwMjUsODQ5OSBjIC0xMTAsLTY2IC0zMjMsLTE5NSAtNDcyLC0y
+ODYgbCAtMjczLC0xNjUgMSwtNDI2IGMgMCwtMzk5IDI2LC00NjI1IDI4LC00NjI5IDEsLTEgMzYs
+LTMwIDc5LC02NCA0MiwtMzUgMTIyLC0xMDIgMTc3LC0xNDkgNTUsLTQ4IDE0NSwtMTI1IDIwMSwt
+MTcxIDE5MCwtMTU5IDUyOCwtNDQ0IDYyMywtNTI2IDk0LC04MCA5NywtODIgMTQ5LC04MyAzNSww
+IDUyLDQgNTIsMTMgMCw2IC0zMCwzNSAtNjcsNjIgLTY2LDQ5IC0xMDEsNzggLTM1OSwzMDAgLTcw
+LDYxIC0xNDksMTI2IC0xNzQsMTQ1IC00NSwzNCAtMTE5LDk4IC0yMzksMjA2IC0zMSwyOCAtOTMs
+NzggLTEzNywxMTIgbCAtODIsNjEgLTYsNjMzIGMgLTE3LDE3NjYgLTI3LDQzNTAgLTE1LDQzNjQg
+Niw3IDM5LDMwIDcyLDQ5IDM0LDIwIDEwMSw2MCAxNDgsODggNDgsMjkgMTA5LDY1IDEzNSw4MSA1
+OCwzNCA5OSw2MCAxNzQsMTA4IDY0LDQyIDk4LDYyIDIwMCwxMTkgNDEsMjMgODksNTIgMTA1LDY1
+IDE3LDEyIDQ5LDMxIDczLDQzIGwgNDMsMjIgMTI5NywtMTAgYyA3MTMsLTYgMTUwMywtMTMgMTc1
+NSwtMTYgNTI2LC03IDQ5NywtMTQgNDAwLDg5IGwgLTU1LDYwIC0xNDk3LDEyIGMgLTgyMyw3IC0x
+NjQwLDEzIC0xODE2LDEzIGwgLTMyMCwxIHoiIC8+CiAgICAgIDxwYXRoCiAgICAgICAgIGlkPSJw
+cTlOcEZ1aEsiCiAgICAgICAgIGQ9Im0gNzQ4MCw3NTkyIGMgMCwtMTcgNywtNTcgMTUsLTg5IDEz
+LC01MCAxNSwtMzE1IDE1LC0yMDkwIFYgMzM4MCBoIDEyNSBjIDEwNCwwIDEyNSwyIDEyNSwxNSAw
+LDggLTcsMTUgLTE1LDE1IC0xMywwIC0xNSwyMzcgLTE3LDIwMDggLTMsMTkzNSAtNCwyMDA4IC0y
+MiwyMDQyIC0zNiw2OCAtOTcsMTIwIC0xNjUsMTQwIC0xNCw0IC0zNCwxMSAtNDMsMTUgLTE1LDYg
+LTE4LDIgLTE4LC0yMyB6IiAvPgogICAgICA8cGF0aAogICAgICAgICBpZD0icE5Xb1pMSWJXIgog
+ICAgICAgICBkPSJtIDEwODE0LDc1NzQgYyAzLC0yNyA5LC02NiAxMiwtODcgOSwtNTUgLTE4LC0x
+MTcgLTc1LC0xNzAgLTI2LC0yNCAtNjUsLTUwIC04NywtNTggLTMyLC0xMiAtMjU2LC0xNCAtMTM1
+MCwtMTQgLTg3MiwwIC0xMzA4LC0zIC0xMzAzLC0xMCA0MCwtNTMgOTAsLTEwMCAxMjMsLTExOCBs
+IDQxLC0yMiBoIDEzNTAgMTM1MCBsIDQwLDIyIGMgNDcsMjUgOTYsNzQgMTIxLDEyMyAxMywyNSAx
+OSw1NiAxOSwxMTAgMCw4MyAtMTUsMTIxIC02OSwxNzggLTMyLDM1IC03MSw1OSAtMTE1LDcyIC0x
+NCw0IC0zNSwxMSAtNDUsMTYgLTE3LDcgLTE4LDQgLTEyLC00MiB6IiAvPgogICAgICA8cGF0aAog
+ICAgICAgICBpZD0icHBpRTFsNmNqIgogICAgICAgICBkPSJtIDkzMjQsNTUwNCBjIDMsLTI3IDks
+LTY2IDEyLC04NyA5LC01NSAtMTgsLTExNyAtNzUsLTE3MCAtNzksLTc0IC02MSwtNzIgLTY2Miwt
+NzIgLTM1NSwwIC01MzMsLTMgLTUyOCwtMTAgNDAsLTUzIDkwLC0xMDAgMTIzLC0xMTggNDEsLTIy
+IDQ0LC0yMiA2MTYsLTIyIDU3MCwwIDU3NSwwIDYxNSwyMiA0NywyNSA5Niw3NCAxMjEsMTIzIDEz
+LDI1IDE5LDU2IDE5LDExMCAwLDgzIC0xNSwxMjEgLTY5LDE3OCAtMzIsMzUgLTcxLDU5IC0xMTUs
+NzIgLTE0LDQgLTM1LDExIC00NSwxNiAtMTcsNyAtMTgsNCAtMTIsLTQyIHoiIC8+CiAgICAgIDxw
+YXRoCiAgICAgICAgIGlkPSJwZ0hYTTNYU0YiCiAgICAgICAgIGQ9Im0gMTA4MDMsNTUwNCBjIDMs
+LTI3IDksLTY2IDEzLC04NyA5LC01NSAtMTgsLTExNiAtNzUsLTE3MCAtNzgsLTczIC03MSwtNzIg
+LTU2MiwtNzIgLTI4OCwwIC00MzMsLTMgLTQyOCwtMTAgNDAsLTUzIDkwLC0xMDAgMTIzLC0xMTgg
+NDAsLTIyIDQ3LC0yMiA1MTYsLTIyIDQ2OCwwIDQ3NiwwIDUxNSwyMiA0NywyNSA5Niw3NCAxMjEs
+MTIzIDEzLDI1IDE5LDU2IDE5LDExMCAwLDgzIC0xNSwxMjEgLTY5LDE3OCAtMzIsMzUgLTcxLDU5
+IC0xMTUsNzIgLTE0LDQgLTM0LDExIC00NSwxNSAtMTcsNyAtMTgsNCAtMTMsLTQxIHoiIC8+CiAg
+ICAgIDxwYXRoCiAgICAgICAgIGlkPSJwMURQNXFzMjd4IgogICAgICAgICBkPSJtIDk1NjAsNTQy
+MyBjIDAsLTM3IDIxLC0xMjIgMzIsLTEyOSAxNiwtMTAgMyw4OCAtMTYsMTIzIC0xNCwyNiAtMTUs
+MjYgLTE2LDYgeiIgLz4KICAgICAgPHBhdGgKICAgICAgICAgaWQ9InA1TkNnN3BEbiIKICAgICAg
+ICAgZD0ibSAxMDczNCwzMjU0IGMgMywtMjcgOSwtNjYgMTIsLTg2IDMsLTIwIDAsLTUzIC02LC03
+NCAtMTcsLTUwIC04NSwtMTIyIC0xNDAsLTE0OCAtNDUsLTIxIC00OCwtMjEgLTE2NTUsLTI3IC04
+ODUsLTQgLTE2MzYsLTEwIC0xNjY3LC0xNCAtNDEsLTUgLTU1LC0xMCAtNDgsLTE4IDQ2LC01OSA5
+MCwtMTAyIDEyMywtMTE5IDUzLC0yNiAxMzIsLTM0IDE4MiwtMTcgMzMsMTEgMzMxLDE1IDE2NTAs
+MTkgbCAxNjEwLDUgNDAsMjIgYyA0NywyNSA5Niw3NCAxMjEsMTIzIDEzLDI1IDE5LDU2IDE5LDEx
+MCAwLDgzIC0xNSwxMjEgLTY5LDE3OCAtMzIsMzUgLTcxLDU5IC0xMTUsNzIgLTE0LDQgLTM1LDEx
+IC00NSwxNiAtMTcsNyAtMTgsNCAtMTIsLTQyIHoiIC8+CiAgICA8L2c+CiAgPC9nPgogIDxnCiAg
+ICAgaWQ9Imw2NlZ3bDNyOTd3WWZHSDlQeFlrTkNnIgogICAgIGZpbGw9IiMwMGZhMDUiCiAgICAg
+dHJhbnNmb3JtPSJtYXRyaXgoMC4wMjI1MDE4LDAsMCwwLjAyMjUwMTgsLTgwLjQwNzA3OSwzLjIz
+MTY1NzYpIgogICAgIHN0eWxlPSJkaXNwbGF5OmlubGluZSI+CiAgICA8ZwogICAgICAgaWQ9Imcy
+OTEiPgogICAgICA8cGF0aAogICAgICAgICBpZD0icDFESGdwaXBiMiIKICAgICAgICAgZD0ibSA3
+MTI1LDkwOTggYyAtMTYsLTYgLTIwNSwtMTE3IC00MjAsLTI0NiAtMjE0LC0xMjkgLTQyNCwtMjU1
+IC00NjUsLTI4MCAtMjQ3LC0xNDggLTMzNCwtMjA3IC0zNzEsLTI1MSAtNjQsLTc4IC02MSwxMjYg
+LTQ0LC0yNzMxIDgsLTE0MjcgMTYsLTI2MjUgMTksLTI2NjEgOSwtMTI2IDM5LC0xNjMgMzIwLC0z
+OTkgMTg5LC0xNTggMzk0LC0zMzEgNTUyLC00NjUgNzEsLTYwIDE2OSwtMTQzIDIxOCwtMTg1IDQ5
+LC00MSAxMzcsLTExNiAxOTUsLTE2NSAxOTAsLTE2MyAyMjgsLTE4OSAyOTEsLTE5NiA5MiwtMTIg
+MzQ2OSwtMTAgMzUyMCwyIDcxLDE2IDEzNCw1MyAyNjksMTU2IDY5LDU0IDIwNSwxNTggMzAyLDIz
+MyA5Nyw3NCAyNzksMjE0IDQwNCwzMTAgMzc0LDI4NiAzOTcsMzA5IDQxNCw0MTAgNiwzMSAxNCw5
+MzcgMjAsMjA4NSA2LDExMTcgMTIsMjIxNyAxNCwyNDQ1IDIsNDUyIC0xLDQ4MyAtNTYsNTU3IC0y
+MywzMSAtMzk0LDQzNCAtODE3LDg4NiAtMTA3LDExNSAtMjIxLDIzOSAtMjUyLDI3NSAtMzIsMzcg
+LTgwLDkwIC0xMDYsMTE4IC04NSw4OCAyMSw4MSAtMTUxMiw5MyAtNzQwLDYgLTE1OTcsMTMgLTE5
+MDUsMTYgLTQwMywzIC01NjgsMSAtNTkwLC03IHogbSAyMjA2LC01MjIgMTQ5NywtMTIgNTYsLTYy
+IGMgMzIsLTMzIDY1LC02MiA3NSwtNjQgMTAsLTIgNTgsLTQ2IDEwNywtOTggMTI5LC0xMzggNTYx
+LC02MDQgNjkyLC03NDcgbCAxMTMsLTEyMiAtMTEsLTE3NzMgYyAtNSwtOTc1IC0xMywtMjAyNiAt
+MTYsLTIzMzUgbCAtNiwtNTYzIC0yMDIsLTE1NCBjIC0xMTAsLTg1IC0zMzYsLTI1OCAtNTAxLC0z
+ODUgbCAtMzAwLC0yMzEgLTE2NjAsMSBIIDc1MTUgbCAtOTYsODIgYyAtOTYsODMgLTQzNywzNzAg
+LTYyMyw1MjYgLTU2LDQ2IC0xNDYsMTIzIC0yMDEsMTcxIC01NSw0NyAtMTM1LDExNCAtMTc3LDE0
+OSAtNDMsMzQgLTc4LDYzIC03OSw2NCAtMiw0IC0yOCw0MjE4IC0yOCw0NTk5IGwgLTEsMzk2IDI3
+MywxNjUgYyAxNDksOTEgMzYyLDIyMCA0NzIsMjg2IGwgMjAwLDEyMSAyOTAsLTEgYyAxNjAsMCA5
+NjMsLTYgMTc4NiwtMTMgeiIgLz4KICAgICAgPHBhdGgKICAgICAgICAgaWQ9InAxOUVEME4zMnIi
+CiAgICAgICAgIGQ9Im0gNzIxNSw3NzIwIGMgLTU0LC0xOCAtMTIxLC03NiAtMTQ2LC0xMjcgbCAt
+MjQsLTQ4IC0zLC0yMjI1IGMgLTIsLTE1NDEgMCwtMjIzNiA4LC0yMjYyIDE0LC00OSA4OSwtMTMw
+IDE0MiwtMTUzIDI0LC0xMSA0NiwtMjQgNDksLTI5IDgsLTEwIDk1LC0xMCAxMTIsMSA3LDQgNzM3
+LDEwIDE2MjIsMTMgMTYwOCw1IDE2MTAsNSAxNjU1LDI2IDU1LDI2IDEyMyw5OCAxNDAsMTQ4IDgs
+MjUgMTAsNjMgNiwxMDkgLTQsNDAgLTcsODEgLTgsOTIgLTIsMjcgLTk4LDExNCAtMTQ1LDEzMSAt
+MzEsMTEgLTMwNSwxMyAtMTU2MCwxNCBIIDc1NDAgdiAyMDMzIGMgMCwxNzIwIC0yLDIwNDEgLTE0
+LDIwODcgLTgsMzAgLTEyLDU4IC0xMCw2MiA1LDggLTg5LDk4IC0xMjIsMTE2IC0zMiwxNyAtMTQx
+LDI0IC0xNzksMTIgeiIgLz4KICAgICAgPHBhdGgKICAgICAgICAgaWQ9InBmZzF5SWxiOCIKICAg
+ICAgICAgZD0ibSA3OTk1LDc3MTkgYyAtNTIsLTE2IC0xMjEsLTc0IC0xNDQsLTEyMiAtMjgsLTU3
+IC0zNiwtMTMwIC0yMiwtMTg0IDE1LC01MyA4NywtMTM0IDE0MywtMTU4IDI0LC0xMSA0OSwtMjUg
+NTYsLTMzIDExLC0xMCAyNjcsLTEyIDEzMjUsLTEwIDEzMDgsMyAxMzEyLDMgMTM1NywyNCA1NSwy
+NiAxMjMsOTggMTQwLDE0OCA4LDI1IDEwLDYzIDYsMTA5IC00LDQwIC03LDgxIC04LDkyIC0yLDI3
+IC05OCwxMTQgLTE0NSwxMzEgLTMxLDExIC0yNzEsMTMgLTEzNTgsMTMgLTc2NywtMSAtMTMzMywt
+NSAtMTM1MCwtMTAgeiIgLz4KICAgICAgPHBhdGgKICAgICAgICAgaWQ9InBFWTNWa0djUyIKICAg
+ICAgICAgZD0ibSA4MDU1LDU2NDkgYyAtNTIsLTE2IC0xMjEsLTc0IC0xNDQsLTEyMiAtMjgsLTU4
+IC0zNiwtMTMwIC0yMSwtMTg2IDE0LC01MiAxMDgsLTE1MyAxNTQsLTE2NSAxNSwtNCAzNSwtMTQg
+NDMsLTIyIDEzLC0xMyA4NywtMTQgNTUyLC0xMiA1MjAsMyA1MzcsNCA1ODEsMjQgNTUsMjYgMTIz
+LDk4IDE0MCwxNDggOCwyNSAxMCw2MyA2LDEwOSAtNCw0MCAtNyw4MSAtOCw5MiAtMiwyNyAtOTgs
+MTE0IC0xNDUsMTMxIC0zMCwxMCAtMTQ5LDEzIC01ODMsMTMgLTMwMCwtMSAtNTU4LC01IC01NzUs
+LTEwIHoiIC8+CiAgICAgIDxwYXRoCiAgICAgICAgIGlkPSJwdzQ2dUE0d3ciCiAgICAgICAgIGQ9
+Im0gOTczOCw1NjUwIGMgLTQyLC0xMyAtMTE1LC02NyAtMTM3LC0xMDMgLTMzLC01NCAtNDUsLTEy
+NyAtMzEsLTE5NCAxMSwtNDkgMjAsLTY1IDY5LC0xMTMgMzEsLTMxIDY5LC02MCA4NSwtNjQgMTUs
+LTQgMzUsLTE0IDQzLC0yMiAxMywtMTMgNzUsLTE1IDQ1MiwtMTIgNDk3LDMgNDg2LDIgNTY4LDkw
+IDUyLDU3IDY3LDEwNSA1OSwxODkgLTMsMzUgLTcsNzUgLTgsODkgLTMsMzIgLTk0LDExNyAtMTQ1
+LDEzNiAtMzAsMTAgLTEzMywxMyAtNDgzLDEzIC0yNDUsLTEgLTQ1NywtNCAtNDcyLC05IHoiIC8+
+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K
+"
+       id="image1405"
+       x="45"
+       y="38.129822" /></g><text
+     xml:space="preserve"
+     transform="scale(0.26458333)"
+     id="text1615"
+     style="text-align:center;white-space:pre;shape-inside:url(#rect1617);fill:#000000" /><text
+     xml:space="preserve"
+     transform="scale(0.26458333)"
+     id="text1621"
+     style="fill:#000000;text-align:center;white-space:pre;shape-inside:url(#rect1623)" /><text
+     xml:space="preserve"
+     transform="scale(0.26458333)"
+     id="text1627"
+     style="fill:#000000;text-align:center;white-space:pre;shape-inside:url(#rect1629)" /><text
+     xml:space="preserve"
+     transform="scale(0.26458333)"
+     id="text1633"
+     style="text-align:center;white-space:pre;shape-inside:url(#rect1635);fill:#000000" /><text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,0.07578914,3.2788775)"
+     id="text1639"
+     style="font-size:14.6667px;text-align:center;white-space:pre;shape-inside:url(#rect1641);fill:#000000"><tspan
+       x="208.99142"
+       y="748.2969"
+       id="tspan1682">EvolutionOS is a general purpose operating system, </tspan><tspan
+       x="219.62263"
+       y="766.63028"
+       id="tspan1684">based onthe monolithic Linux kernel. Its package </tspan><tspan
+       x="225.71347"
+       y="784.96365"
+       id="tspan1686">systemallows you to quickly install, update and </tspan><tspan
+       x="226.94882"
+       y="803.29703"
+       id="tspan1688">removesoftware; software is provided in binary </tspan><tspan
+       x="214.66331"
+       y="821.6304"
+       id="tspan1690">packages orcan be built directly from sources with </tspan><tspan
+       x="220.74698"
+       y="839.96377"
+       id="tspan1692">the help of the XBPS source packages collection.</tspan></text></svg>

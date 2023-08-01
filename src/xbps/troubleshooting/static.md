@@ -29,7 +29,7 @@ copy on your system (with a preference for the latest copy).
 The tools in the static set are identical to the normal ones found on most
 systems. The only difference is that these tools are statically linked to the
 musl C library, and should work on systems where nothing else does. On systems
-that can no longer boot, it is recommended to chroot in using a Void
+that can no longer boot, it is recommended to chroot in using a EvolutionOS
 installation medium and use the static tools from there, as it is unlikely that
 even a shell will work correctly on those systems. When using static XBPS with a
 glibc installation, the environment variable `XBPS_ARCH` needs to be set.

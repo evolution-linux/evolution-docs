@@ -30,9 +30,9 @@ simply specifies an offset from
 
 ## Hardware clock
 
-By default, the hardware clock in Void is stored as UTC. Windows does not use
-UTC by default, and if you are dual-booting, this will conflict with Void. You
-can either change Windows to use UTC, or change Void Linux to use `localtime` by
+By default, the hardware clock in EvolutionOS is stored as UTC. Windows does not use
+UTC by default, and if you are dual-booting, this will conflict with EvolutionOS. You
+can either change Windows to use UTC, or change EvolutionOS Linux to use `localtime` by
 setting the `HARDWARECLOCK` variable in `/etc/rc.conf`:
 
 ```
@@ -46,7 +46,7 @@ For more details, see [hwclock(8)](https://man.voidlinux.org/hwclock.8).
 To maintain accuracy of your system's clock, you can use the [Network Time
 Protocol](https://en.wikipedia.org/wiki/Network_Time_Protocol) (NTP).
 
-Void provides packages for three NTP daemons: NTP, OpenNTPD and Chrony.
+EvolutionOS provides packages for three NTP daemons: NTP, OpenNTPD and Chrony.
 
 Once you have installed an NTP daemon, you can [enable the
 service](../config/services/index.md#managing-services) for it, either through

@@ -1,7 +1,7 @@
 # Printing
 
 CUPS (Common Unix Printing System) is the supported mechanism for connecting to
-printers on Void Linux.
+printers on EvolutionOS.
 
 As prerequisites, install the `cups` package and enable the `cupsd` service.
 Wait until the service is marked available.

@@ -2,20 +2,22 @@
 
 ## Verifying RSA keys
 
-If the Void RSA key has changed,
+If the Void or EvolutionOS RSA key has changed,
 [xbps-install(1)](https://man.voidlinux.org/xbps-install.1) will report the new
 key fingerprint and ask you to confirm it:
 
 ```
-<repository> repository has been RSA signed by "Void Linux"
+<repository> repository has been RSA signed by "Tracker-Friendly"
 Fingerprint: <rsa_fingerprint>
 Do you want to import this public key? [Y/n]
 ```
 
 To verify the key, ensure the `<rsa_fingerprint>` matches one of the
 fingerprints in both
-[void-packages](https://github.com/void-linux/void-packages/tree/master/common/repo-keys)
-and [void-mklive](https://github.com/void-linux/void-mklive/tree/master/keys).
+[evolution-packages](https://github.com/evolution-linux/evolution-packages/tree/master/common/repo-keys)
+and [evolution-installer](https://github.com/evolution-linux/evolution-mklive/tree/master/keys).
+
+Tier 0 mirror keys will be found at [a evolution-installer subdirectory](https://github.com/evolution-linux/evolution-mklive/tree/master/include/var/db/xbps/)
 
 ## Errors while updating or installing packages
 
@@ -57,7 +59,7 @@ libllvm8-8.0.1_2: broken, unresolvable shlib `libffi.so.6'
 
 is probably due to outdated or orphan packages. To check for outdated packages,
 simply try to [update your system](../index.md#updating). Orphan packages, on
-the other hand, have been removed from the Void repos, but are still installed
+the other hand, have been removed from the Void or EvolutionOS repos, but are still installed
 on your system; they can be removed by running
 [xbps-remove(1)](https://man.voidlinux.org/xbps-remove.1) with the `-o` option.
 

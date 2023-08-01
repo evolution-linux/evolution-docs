@@ -17,9 +17,13 @@ URL](./mirrors/index.md) are:
 - musl: `/current/musl`
 - aarch64 and aarch64-musl: `/current/aarch64`
 
+There is also an additional repository containing patches at 
+
+https://evolution-linux.github.io/pkg
+
 ## Subrepositories
 
-In addition to the main repository, which is enabled upon installation, Void
+In addition to the main repository, which is enabled upon installation, EvolutionOS
 provides other official repositories maintained by the Void project, but not
 enabled by default:
 
@@ -34,7 +38,7 @@ These packages only install a repository configuration file in
 
 ### nonfree
 
-Void has a `nonfree` repository for packages that don't have free licenses. It
+EvolutionOS has a `nonfree` repository for packages that don't have free licenses. It
 can be enabled by installing the `void-repo-nonfree` package.
 
 Packages can end up in the `nonfree` repository for a number of reasons:
@@ -61,7 +65,7 @@ non-free licenses. It can be enabled by installing the
 
 ### debug
 
-Void Linux packages come without debugging symbols. If you want to debug
+EvolutionOS packages come without debugging symbols. If you want to debug
 software or look at a core dump you will need the debugging symbols. These
 packages are contained in the debug repository. It can be enabled by installing
 the `void-repo-debug` package.

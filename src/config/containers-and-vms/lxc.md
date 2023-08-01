@@ -84,7 +84,7 @@ user veth lxcbr0 10
 ```
 
 The user can now create and use unprivileged containers with the `lxc-*`
-utilities. To create a simple Void container named `mycontainer`, use a command
+utilities. To create a simple EvolutionOS container named `mycontainer`, use a command
 similar to:
 
 ```

@@ -1,8 +1,8 @@
 # rc.conf, rc.local and rc.shutdown
 
 The files `/etc/rc.conf`, `/etc/rc.local` and `/etc/rc.shutdown` can be used to
-configure certain parts of your Void system. `rc.conf` is often configured by
-`void-installer`.
+configure certain parts of your EvolutionOS system. `rc.conf` is often configured by
+`evolution-installer`.
 
 ## rc.conf
 

@@ -1,7 +1,7 @@
 # Containers and Virtual Machines
 
 This section describes how to set up some of the container and virtual machine
-software available on Void.
+software available on EvolutionOS.
 
 ## Section Contents
 

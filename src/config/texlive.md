@@ -1,6 +1,6 @@
 # TeX Live
 
-In Void, the `texlive-bin` package provides a basic TeX installation, including
+In EvolutionOS, the `texlive-bin` package provides a basic TeX installation, including
 the `tlmgr` program. Use `tlmgr` to install TeX packages and package collections
 from CTAN mirrors. Install the `gnupg` package to allow `tlmgr` to verify TeX
 packages.

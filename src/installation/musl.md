@@ -3,7 +3,7 @@
 [musl](https://musl.libc.org/) is a libc implementation which strives to be
 lightweight, fast, simple, and correct.
 
-Void officially supports musl by using it in its codebase for all target
+EvolutionOS supports musl by using it in its codebase for all target
 platforms (although binary packages are not available for i686). Additionally,
 all compatible packages in our official repositories are available with
 musl-linked binaries in addition to their glibc counterparts.
@@ -15,7 +15,7 @@ multilib sub-repo.
 
 musl practices very strict and minimal standard compliance. Many commonly used
 platform-specific extensions are not present. Because of this, it is common for
-software to need modification to compile and/or function properly. Void
+software to need modification to compile and/or function properly. EvolutionOS
 developers work to patch such software and hopefully get portability/correctness
 changes accepted into the upstream projects.
 

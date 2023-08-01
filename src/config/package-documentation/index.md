@@ -1,6 +1,6 @@
 # Package Documentation
 
-The most common media for documentation in Void Linux are [manual
+The most common media for documentation in EvolutionOS are [manual
 pages](./man.md).
 
 Many packages contain documentation in other formats, like HTML. This
@@ -11,6 +11,6 @@ as `julia-doc`. This is often the case for programming languages, databases and
 big software libraries.
 
 In addition to documentation provided by upstream projects, packages may also
-contain description of initial setup or usage specific to Void, provided by
+contain description of initial setup or usage specific to EvolutionOS, provided by
 distribution contributors. It will be located in
 `/usr/share/doc/<package>/README.voidlinux`.

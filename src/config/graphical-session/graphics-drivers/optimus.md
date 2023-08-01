@@ -23,7 +23,7 @@ NVRM: at www.nvidia.com.
 
 which means you have to uninstall `nvidia` and install the legacy `nvidia390`.
 
-A summary of the methods supported by Void, which are mutually exclusive:
+A summary of the methods supported by EvolutionOS, which are mutually exclusive:
 
 [PRIME Render Offload](#prime-render-offload)
 

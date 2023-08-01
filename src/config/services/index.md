@@ -1,6 +1,6 @@
 # Services and Daemons - runit
 
-Void uses the [runit(8)](https://man.voidlinux.org/runit.8) supervision suite to
+EvolutionOS uses the [runit(8)](https://man.voidlinux.org/runit.8) supervision suite to
 run system services and daemons.
 
 Some advantages of using runit include:
@@ -116,7 +116,7 @@ See [sv(8)](https://man.voidlinux.org/sv.8) for further information.
 
 #### Enabling Services
 
-Void Linux provides service directories for most daemons in `/etc/sv/`.
+EvolutionOS provides service directories for most daemons in `/etc/sv/`.
 
 To enable a service on a booted system, create a symlink to the service
 directory in `/var/service/`:

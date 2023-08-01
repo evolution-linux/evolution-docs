@@ -1,7 +1,7 @@
 # Live Installers
 
-Void provides live installer images containing a base set of utilities, an
-installer program, and package files to install a new Void system. These live
+EvolutionOS provides live installer images containing a base set of utilities, an
+installer program, and package files to install a new EvolutionOS system. These live
 images are also useful for repairing a system that is not able to boot or
 function properly.
 
@@ -13,14 +13,14 @@ manually.
 
 ## Installer images
 
-Void releases two types of images: base images and xfce images. Linux beginners
+EvolutionOS releases two types of images: base images and xfce images. Linux beginners
 are encouraged to try one of the more full-featured xfce images, but more
 advanced users may often prefer to start from a base image to install only the
 packages they need.
 
 ### Base images
 
-The base images provide only a minimal set of packages to install a usable Void
+The base images provide only a minimal set of packages to install a usable EvolutionOS
 system. These base packages are only those needed to configure a new machine,
 update the system, and install additional packages from repositories.
 
@@ -48,7 +48,7 @@ the base system, without any additional packages included on the live image.
 
 ## Accessibility support
 
-All Void installer images support the console screenreader
+All EvolutionOS images support the console screenreader
 [espeakup](https://man.voidlinux.org/espeakup.8) and the console braille display
 driver [brltty](https://man.voidlinux.org/brltty.1). These services can be
 enabled at boot by pressing `s` in the bootloader menu to enable accessibility
@@ -75,6 +75,6 @@ if the `Local` installation source is selected.
 
 ## Kernel Command-line Parameters
 
-Void installer images support several kernel command-line arguments that can
-change the behavior of the live system. See [the void-mklive README for a full
-list](https://github.com/void-linux/void-mklive#kernel-command-line-parameters).
+EvolutionOS installer images support several kernel command-line arguments that can
+change the behavior of the live system. See [the evolution-installer README for a full
+list](https://github.com/evolution-linux/evolution-installer#kernel-command-line-parameters).

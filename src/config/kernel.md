@@ -2,7 +2,7 @@
 
 ## Kernel series
 
-Void Linux provides many kernel series in the default repository. These are
+EvolutionOS provides many kernel series in the default repository. These are
 named `linux<x>.<y>`: for example, `linux4.19`. You can query for all available
 kernel series by running:
 
@@ -58,7 +58,7 @@ can add `linux` and `linux-headers` to an `ignorepkg` entry in
 
 ## Changing the default initramfs generator
 
-By default, Void Linux uses [dracut](https://man.voidlinux.org/dracut.8) to
+By default, EvolutionOS uses [dracut](https://man.voidlinux.org/dracut.8) to
 prepare initramfs images for installed kernels. Alternatives such as
 [mkinitcpio](https://man.voidlinux.org/mkinitcpio.8) are available. Each
 initramfs generator registers an [XBPS
@@ -135,13 +135,13 @@ initramfs to ensure that it includes the changes.
 
 ## Kernel hardening
 
-Void Linux ships with some kernel security options enabled by default. This was
+EvolutionOS Linux ships with some kernel security options enabled by default. This was
 originally provided by kernel command line arguments `slub_debug=P
 page_poison=1`, but since kernel series 5.3, these have been replaced with
 `init_on_alloc` and `init_on_free` (see [this
 commit](https://github.com/torvalds/linux/commit/6471384af)).
 
-Void's kernels come with the `init_on_alloc` option enabled by default where
+Evolution's kernels come with the `init_on_alloc` option enabled by default where
 available (i.e. `linux5.4` and greater). In most cases you should usually not
 disable it, as it has a fairly minimal impact on performance (within 1%). The
 `init_on_free` option is more expensive (around 5% on average) and needs to be
@@ -214,7 +214,7 @@ blacklist radeon
 
 ## Kernel hooks
 
-Void Linux provides directories for kernel hooks in
+EvolutionOS provides directories for kernel hooks in
 `/etc/kernel.d/{pre-install,post-install,pre-remove,post-remove}`.
 
 These hooks are used to update the boot menus for bootloaders like `grub`,

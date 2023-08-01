@@ -1,6 +1,6 @@
 # Network
 
-Network configuration in Void Linux can be done in several ways. The default
+Network configuration in EvolutionOS can be done in several ways. The default
 installation comes with the [dhcpcd(8)](https://man.voidlinux.org/dhcpcd.8)
 service enabled.
 
@@ -63,7 +63,7 @@ Before using wireless networking, use
 [rfkill(8)](https://man.voidlinux.org/rfkill.8) to check whether the relevant
 interfaces are soft- or hard-blocked.
 
-Void provides several ways to connect to wireless networks:
+EvolutionOS provides several ways to connect to wireless networks:
 
 - [wpa_supplicant](./wpa_supplicant.md)
 - [iwd](./iwd.md)

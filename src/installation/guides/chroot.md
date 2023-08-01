@@ -1,26 +1,21 @@
 # Installation via chroot (x86/x86_64/aarch64)
 
-This guide details the process of manually installing Void via a chroot on an
+This guide details the process of manually installing EvolutionOS via a chroot on an
 x86, x86_64 or aarch64 architecture. It is assumed that you have a familiarity
 with Linux, but not necessarily with installing a Linux system via a chroot.
 This guide can be used to create a "typical" setup, using a single partition on
 a single SATA/IDE/USB disk. Each step may be modified to create less typical
 setups, such as [full disk encryption](./fde.md).
 
-Void provides two options for bootstrapping the new installation. The **XBPS
+EvolutionOS provides two options for bootstrapping the new installation. The **XBPS
 method** uses the [XBPS Package Manager](../../xbps/index.md) running on a host
 operating system to install the base system. The **ROOTFS method** installs the
 base system by unpacking a ROOTFS tarball.
 
 The **XBPS method** requires that the host operating system have XBPS installed.
-This may be an existing installation of Void, an official [live
+This may be an existing installation of EvolutionOS, an official [live
 image](../live-images/prep.md), or any Linux installation running a [statically
 linked XBPS](../../xbps/troubleshooting/static.md).
-
-The **ROOTFS method** requires only a host operating system that can enter a
-Linux chroot and that has both [tar(1)](https://man.voidlinux.org/tar.1) and
-[xz(1)](https://man.voidlinux.org/xz.1) installed. This method may be preferable
-if you wish to install Void using a different Linux distribution.
 
 ## Prepare Filesystems
 
@@ -81,7 +76,7 @@ Follow only one of the two following subsections.
 
 If on aarch64, it will be necessary to install a kernel package in addition to
 `base-system`. For example, `linux` is a kernel package that points to the
-latest stable kernel packaged by Void.
+latest stable kernel packaged by EvolutionOS.
 
 ### The XBPS Method
 
@@ -91,6 +86,7 @@ the type of system you wish to install. For simplicity, save this URL to a shell
 variable. A glibc installation, for example, would use:
 
 ```
+# REPO=https://evolution-linux.github.io/pkg
 # REPO=https://repo-default.voidlinux.org/current
 ```
 
@@ -121,18 +117,6 @@ installation by installing the `base-system` metapackage:
 # XBPS_ARCH=$ARCH xbps-install -S -r /mnt -R "$REPO" base-system
 ```
 
-### The ROOTFS Method
-
-[Download a ROOTFS
-tarball](https://voidlinux.org/download/#download-installable-base-live-images-and-rootfs-tarballs)
-matching your architecture.
-
-Unpack the tarball into the newly configured filesystems:
-
-```
-# tar xvf void-<...>-ROOTFS.tar.xz -C /mnt
-```
-
 ## Configuration
 
 With the exception of the section "Install base-system (ROOTFS method only)",
@@ -148,20 +132,6 @@ manually](../../config/containers-and-vms/chroot.md#manual-method).
 ```
 # xchroot /mnt /bin/bash
 ```
-
-### Install base-system (ROOTFS method only)
-
-ROOTFS images generally contain out of date software, due to being a snapshot of
-the time when they were built, and do not come with a complete `base-system`.
-Update the package manager and install `base-system`:
-
-```
-[xchroot /mnt] # xbps-install -Su xbps
-[xchroot /mnt] # xbps-install -u
-[xchroot /mnt] # xbps-install base-system
-[xchroot /mnt] # xbps-remove base-voidstrap
-```
-
 ### Installation Configuration
 
 Specify the hostname in `/etc/hostname`. Go through the options in
@@ -314,5 +284,5 @@ computer:
 # shutdown -r now
 ```
 
-After booting into your Void installation for the first time, [perform a system
+After booting into your evolutionOS installation for the first time, [perform a system
 update](../../xbps/index.md#updating).

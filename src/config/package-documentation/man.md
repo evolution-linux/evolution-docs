@@ -1,6 +1,6 @@
 # Manual Pages
 
-Many Void packages come with manual ('man') pages. The default installation
+Many EvolutionOS packages come with manual ('man') pages. The default installation
 includes the [mandoc](https://mandoc.bsd.lv/) manpage toolset, via the `mdocml`
 package.
 

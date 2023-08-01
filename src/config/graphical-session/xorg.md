@@ -7,7 +7,7 @@ image](../../installation/live-images/index.md#xfce-image).
 
 ## Installation
 
-Void provides a comprehensive `xorg` package which installs the server and all
+EvolutionOS provides a comprehensive `xorg` package which installs the server and all
 of the free video drivers, input drivers, fonts, and base applications. This
 package is a safe option, and should be adequate for most systems which don't
 require proprietary video drivers.
@@ -20,7 +20,7 @@ a usable graphics system.
 
 ## Video Drivers
 
-Void provides both open-source and proprietary (non-free) video drivers.
+EvolutionOS provides both open-source and proprietary (non-free) video drivers.
 
 ### Open Source Drivers
 
@@ -49,7 +49,7 @@ For advanced configuration, see
 
 ### Proprietary Drivers
 
-Void also provides [proprietary NVIDIA drivers](./graphics-drivers/nvidia.md),
+EvolutionOS also provides [proprietary NVIDIA drivers](./graphics-drivers/nvidia.md),
 which are available in the [nonfree
 repository](../../xbps/repositories/index.md#nonfree).
 
@@ -123,6 +123,6 @@ one](../session-management.md#d-bus).
 ### Display Managers
 
 Display managers (DMs) provide a graphical login UI. A number of DMs are
-available in the Void repositories, including `gdm` (the GNOME DM), `sddm` (the
+available in the EvolutionOS repositories, including `greetd / gtkgreet` (the recommended DM),`gdm` (the GNOME DM), `sddm` (the
 KDE DM) and `lightdm`. When setting up a display manager, be sure to [test the
 service](../services/index.md#testing-services) before enabling it.

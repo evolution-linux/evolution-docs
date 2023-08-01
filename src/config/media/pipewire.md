@@ -29,13 +29,13 @@ In PipeWire, a session manager assumes responsibility for interconnecting media
 sources and sinks as well as enforcing routing policy. Without a session
 manager, PipeWire will not function. The reference
 [`pipewire-media-session`](https://gitlab.freedesktop.org/pipewire/media-session)
-was originally provided in the Void `pipewire` package and configured to run by
+was originally provided in the EvolutionOS `pipewire` package and configured to run by
 default to satisfy this requirement. However, `pipewire-media-session` is
 deprecated and the authors recommend using
 [WirePlumber](https://pipewire.pages.freedesktop.org/wireplumber/) in its place.
 Install the `wireplumber` package to use this session manager with PipeWire.
 
-> If you have installed an earlier version of the Void `pipewire` package, make
+> If you have installed an earlier version of the EvolutionOS `pipewire` package, make
 > sure to update your system to eliminate any stale system configuration that
 > may attempt to launch `pipewire-media-session`. Users who previously overrode
 > the system configuration to use `wireplumber`, *e.g.* by placing a custom

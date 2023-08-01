@@ -3,7 +3,7 @@
 ## Syslog
 
 The default installation comes with no syslog daemon. However, there are syslog
-implementations available in the Void repositories.
+implementations available in the EvolutionOS repositories.
 
 ### Socklog
 
@@ -21,4 +21,4 @@ The ability to read logs is limited to `root` and users who are part of the
 
 ### Other syslog daemons
 
-The Void repositories also include packages for `rsyslog` and `metalog`.
+The EvolutionOS repositories also include packages for `rsyslog` and `metalog`.

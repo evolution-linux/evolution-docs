@@ -52,7 +52,7 @@ following table has recommendations for swap partition size.
 ## Boot partition (optional)
 
 On most modern systems, a separate `/boot` partition is no longer necessary to
-boot properly. If you choose to use one, note that Void does not remove old
+boot properly. If you choose to use one, note that EvolutionOS does not remove old
 kernels after updates by default and also that the kernel tends to increase in
 size with each new version, so plan accordingly (e.g. `/boot` with one Linux 5.x
 `x86_64` kernel and GRUB occupies about 60MB).
@@ -61,6 +61,6 @@ size with each new version, so plan accordingly (e.g. `/boot` with one Linux 5.x
 
 It is fine to install your system with only a large root partition, but you may
 create other partitions if you want. One helpful addition could be a separate
-partition for your `/home` directory. This way if you need to reinstall Void (or
+partition for your `/home` directory. This way if you need to reinstall EvolutionOS (or
 another distribution) you can save the data and configuration files in your home
 directory for your new system.
