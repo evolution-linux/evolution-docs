@@ -52,13 +52,11 @@
                                           <li class="js-unavailable">Search functionality requires JavaScript</li>
                                         </noscript>
 				</ul>
-				<ul id="nav-right">
-					<li><a href="https://evolution-linux.github.io/">Home</a></li>
-					<li><a href="https://evolution-linux.github.io/download">Download</a></li>
-					<li><a href="https://voidlinux.org/packages/">Packages</a></li>
-					<li><a href="https://evolution-linux.github.io/wiki">Documentation</a></li>
-					<li><a href="https://man.voidlinux.org/">Manual Pages</a></li>
-					<li><a href="https://github.com/evolution-linux">Source Code</a></li>
+				<ul id="nav-center">
+          <li><ao href="/download">Download</ao>
+					<li><ao href="/wiki">Wiki</ao></li>
+					<li><ao href="https://github.com/evolution-linux/evolution-linux.github.io">Source Code</a></li>
+					<ao onclick="toggleDarkMode()" class="dark-mode-button">Toggle Dark Mode</ao>
 				</ul>
 			</nav>
 		</header>
@@ -152,5 +150,53 @@
         {{/if}}
 
         <script src="{{ path_to_root }}book.js" type="text/javascript" charset="utf-8"></script>
+          <script>
+    // Check if a dark mode cookie exists, and apply dark mode if it does
+    if (getCookie("darkMode") === "true") {
+      applyDarkMode();
+    }
+
+    function toggleDarkMode() {
+      if (getCookie("darkMode") === "true") {
+        // Disable dark mode
+        setCookie("darkMode", "false", 365);
+        applyLightMode();
+      } else {
+        // Enable dark mode
+        setCookie("darkMode", "true", 365);
+        applyDarkMode();
+      }
+    }
+
+    function applyDarkMode() {
+      document.body.classList.add("dark-mode");
+    }
+
+    function applyLightMode() {
+      document.body.classList.remove("dark-mode");
+    }
+
+    // Helper functions for handling cookies
+    function setCookie(name, value, days) {
+      var expires = "";
+      if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        expires = "; expires=" + date.toUTCString();
+      }
+      document.cookie = name + "=" + (value || "") + expires + "; path=/";
+    }
+
+    function getCookie(name) {
+      var nameEQ = name + "=";
+      var ca = document.cookie.split(';');
+      for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+        if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+      }
+      return null;
+    }
+  </script>
     </body>
 </html>

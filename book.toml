@@ -1,8 +1,8 @@
 [book]
-authors = ["The Void Linux Team"]
+authors = ["Tracker-Friendly"]
 multilingual = false
 src = "src"
-title = "Void Linux Handbook"
+title = "EvolutionOS Handbook"
 
 [output.html]
 theme = "src/theme"

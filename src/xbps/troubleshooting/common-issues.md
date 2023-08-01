@@ -15,9 +15,9 @@ Do you want to import this public key? [Y/n]
 To verify the key, ensure the `<rsa_fingerprint>` matches one of the
 fingerprints in both
 [evolution-packages](https://github.com/evolution-linux/evolution-packages/tree/master/common/repo-keys)
-and [evolution-installer](https://github.com/evolution-linux/evolution-mklive/tree/master/keys).
+and [evolution-installer](https://github.com/evolution-linux/evolution-installer/tree/master/keys).
 
-Tier 0 mirror keys will be found at [a evolution-installer subdirectory](https://github.com/evolution-linux/evolution-mklive/tree/master/include/var/db/xbps/)
+Tier 0 mirror keys will be found at [a evolution-installer subdirectory](https://github.com/evolution-linux/evolution-installer/tree/master/include/var/db/xbps/)
 
 ## Errors while updating or installing packages
 
