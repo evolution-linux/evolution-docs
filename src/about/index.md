@@ -3,12 +3,11 @@
 Welcome to the EvolutionOS Handbook! Please be sure to read the "[About This
 Handbook](./about-this-handbook.md)" section to learn how to use this
 documentation effectively. A local copy of this handbook, in several formats,
-can be [installed](../xbps/index.md) via the `mdocml` package and accessed
+can be [installed](../xbps/index.md) via the `evolution-docs` package and accessed
 with the [evolution-docs(1)](https://evolution-linux.github.io/wiki) utility.
 
 EvolutionOS is an [rolling
-release](https://en.wikipedia.org/wiki/Rolling_release) Linux distribution,
-developed from scratch rather than as a fork, with a focus on stability over
+release](https://en.wikipedia.org/wiki/Rolling_release) Linux distribution, with a focus on stability over
 [bleeding-edge](https://en.wikipedia.org/wiki/Bleeding_edge_technology). In
 addition, there are several features that make EvolutionOS unique:
 

@@ -1,6 +1,6 @@
 # Contributing
 
-To contribute to the Void documentation, please read the following. Pull
+To contribute to the EvolutionOS documentation, please read the following. Pull
 requests that do not meet the criteria described below will not be merged.
 Before submitting a PR:
 
@@ -20,12 +20,12 @@ This will improve the chances of your contribution being accepted quickly.
 
 The Handbook is not intended to be a general guide to using a Linux system, as
 [noted in the "About"
-section](https://docs.voidlinux.org/about/about-this-handbook.html):
+section](https://evolution-linux.github.io/wiki/about/about-this-handbook.html):
 
 > This handbook is not an extensive guide on how to use and configure common
 > Linux software. The purpose of this document is to explain how to install,
-> configure, and maintain Void Linux systems, and to highlight the differences
-> between common Linux distributions and Void ...
+> configure, and maintain EvolutionOS systems, and to highlight the differences
+> between common Linux distributions and EvolutionOS ...
 > 
 > Those looking for tips and tricks on how to configure a Linux system in
 > general should consult upstream software documentation. Additionally, the Arch
@@ -34,14 +34,14 @@ section](https://docs.voidlinux.org/about/about-this-handbook.html):
 > further assistance.
 
 Thus, we are unlikely to accept contributions which add information that is not
-particularly Void-specific.
+particularly Evolution-specific.
 
 ## Style Guide
 
 This style guide outlines the standards for contributing to the Handbook. The
-manual on <https://docs.voidlinux.org> is generated from an
+manual on <https://evolution-linux.github.io/wiki> is generated from an
 [mdBook](https://rust-lang.github.io/mdBook/) stored in the
-[void-docs](https://github.com/void-linux/void-docs/) repository.
+[evolution-docs](https://github.com/evolution-linux/evolution-docs/) repository.
 
 ### General
 
@@ -63,7 +63,7 @@ describing how to enable the `foo` service.
 ### Formatting
 
 For markdown formatting, the
-[void-docs](https://github.com/void-linux/void-docs/) project uses the
+[evolution-docs](https://github.com/evolution-linux/evolution-docs/) project uses the
 [Versioned Markdown](https://github.com/bobertlo/vmd) format, and enforces use
 of the auto-formatter `vmdfmt`, which works very similarly to `gofmt`. Most
 valid markdown is accepted by the formatter. The output format is described in
@@ -82,7 +82,7 @@ modified, run:
 vmdfmt -w -l <filepath>
 ```
 
-`vmdfmt` is used by the void-docs repository's `check.sh` script, which must be
+`vmdfmt` is used by the evolution-docs repository's `check.sh` script, which must be
 [run locally before submitting a pull request](#making-changes).
 
 ### Commands
@@ -168,7 +168,7 @@ For more information, please read the "[Power Management](./power-management.md)
 and
 
 ```
-Void provides facilities to assist with [power management](./power-management.md).
+EvolutionOS provides facilities to assist with [power management](./power-management.md).
 ```
 
 #### Man Page Links
@@ -209,7 +209,7 @@ any link you're using is correct but generating errors for some reason, you can
 add its domain to the exclude list in `book.toml`, under the
 `[mdbook.linkcheck]` key.
 
-`mdbook-linkcheck` is used by the void-docs repository's `check.sh` script,
+`mdbook-linkcheck` is used by the evolution-docs repository's `check.sh` script,
 which must be [run locally before submitting a pull request](#making-changes).
 
 #### Redirects
@@ -293,7 +293,7 @@ source.
 ## Submitting Changes
 
 Proposed changes should be submitted as pull requests to the
-[void-docs](https://github.com/void-linux/void-docs) repository on
+[evolution-docs](https://github.com/evolution-linux/evolution-docs) repository on
 [GitHub](https://github.com/). Please note that, unlike a wiki, submissions will
 be reviewed before they are merged. If any changes are required they will need
 to be made before the pull request is accepted. This process is in place to
@@ -318,8 +318,8 @@ Once you have an account, follow GitHub's
 Clone the repository onto your computer, enter it, and create a new branch:
 
 ```
-$ git clone https://github.com/<your_username>/void-docs.git
-$ cd void-docs
+$ git clone https://github.com/<your_username>/evolution-docs.git
+$ cd evolution-docs
 $ git checkout -b <branch_name>
 ```
 

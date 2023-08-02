@@ -1,15 +1,15 @@
-# Void Docs
+# Evolution Docs
 
-Welcome to the Void documentation. This repository contains the source data
-behind <https://docs.voidlinux.org/>. Contributing to this repository follows
+Welcome to the EvolutionOS documentation. This repository contains the source data
+behind <https://evolution-linux.github.io/wiki/>. Contributing to this repository follows
 the same protocol as the packages tree. For details, please read
 [CONTRIBUTING](./CONTRIBUTING.md).
 
 ## Building
 
 The [res/build.sh](./res/build.sh) script builds HTML, roff and PDF versions of
-the Void documentation and the `void-docs.1` man page. It requires the following
-Void packages:
+the Evolution documentation and the `evolution-docs.1` man page. It requires the following
+Evolution packages:
 
 - `mdBook`
 - `findutils`
